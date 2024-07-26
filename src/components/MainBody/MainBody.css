@@ -1,8 +1,5 @@
-/* .mainCard{
-    box-sizing: border-box;
+/* img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 0.5rem;
 } */
-
-.mainImg{
-    opacity: 0.5;
-    box-sizing: border-box;
-}
