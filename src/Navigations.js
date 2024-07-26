@@ -8,6 +8,7 @@ import Outfit from './components/outfit/Outfit'
 import Color from './components/colorOutfit/Color'
 import Design from './components/DesignOutfit/Design'
 import Cloth from './components/ClothOutfit/Cloth'
+import MainBody from './components/MainBody/MainBody'
 
 class Navigations extends Component {
   render() {
@@ -21,6 +22,7 @@ class Navigations extends Component {
             <Route path='/outfit/design' Component={Design}/>
             <Route path='/outfit/cloth' Component={Cloth}/>
             <Route path='/outfit/color' Component={Color}/>
+            <Route path='/mainbody' Component={MainBody}/>
         </Routes>
       </div>
     )
