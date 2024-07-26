@@ -5,6 +5,9 @@ import Home from './components/Home'
 import Requests from './components/Requests'
 import Orders from './components/Orders'
 import Outfit from './components/outfit/Outfit'
+import Color from './components/colorOutfit/Color'
+import Design from './components/DesignOutfit/Design'
+import Cloth from './components/ClothOutfit/Cloth'
 
 class Navigations extends Component {
   render() {
@@ -14,7 +17,10 @@ class Navigations extends Component {
             <Route path='/' Component={Home} />
             <Route path='/requests' Component={Requests}/>
             <Route path='/orders' Component={Orders}/>
-            <Route path='/outfit' Component={Outfit}/>
+            <Route path='/outfit/category' Component={Outfit}/>
+            <Route path='/outfit/design' Component={Design}/>
+            <Route path='/outfit/cloth' Component={Cloth}/>
+            <Route path='/outfit/color' Component={Color}/>
         </Routes>
       </div>
     )
