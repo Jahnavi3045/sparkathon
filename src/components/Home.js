@@ -6,8 +6,7 @@ const Home = () => {
   return (
     <div>
         <MainBody />
-        {/* <img src="./../images/MainBody.jpg" class="img-fluid" alt="..." height={100}></img> */}
-        <a href='/outfit/category'><button type="button" class="btn btn-secondary">create your closet</button></a>
+        <a href='/outfit/design'><button type="button" class="btn btn-secondary" style={{position:'relative',left:'50%',marginTop:'40px'}}>create your closet</button></a>
     </div>
   )
 }

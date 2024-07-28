@@ -9,6 +9,9 @@ import Color from './components/colorOutfit/Color'
 import Design from './components/DesignOutfit/Design'
 import Cloth from './components/ClothOutfit/Cloth'
 import MainBody from './components/MainBody/MainBody'
+import Measure from './components/measure/Measure'
+import Payment from './components/payment/Payment'
+import Success from './components/success/Success'
 
 class Navigations extends Component {
   render() {
@@ -23,6 +26,9 @@ class Navigations extends Component {
             <Route path='/outfit/cloth' Component={Cloth}/>
             <Route path='/outfit/color' Component={Color}/>
             <Route path='/mainbody' Component={MainBody}/>
+            <Route path='/measure' Component={Measure}/>
+            <Route path='/payment' Component={Payment}/>
+            <Route path='/success' Component={Success}/>
         </Routes>
       </div>
     )

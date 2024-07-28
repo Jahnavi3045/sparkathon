@@ -1,0 +1,14 @@
+.bodyText{
+    margin:20px;
+    font-size: 40px;
+}
+.paymentOptions{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.paymentOptions img{
+    width:110px;
+    height: 90px;
+    margin: 30px;
+}
